@@ -1,0 +1,230 @@
+body {
+	background-color: #262626;
+	overflow: hidden;
+    position: relative;
+    min-height: 100%;
+    color: #C4C4C4;
+    
+    font-family: Tahoma, Trebuchet MS, sans-serif;
+    
+	font-size: 11px;
+    background-repeat:no-repeat !important;
+    background-position: center !important;
+	margin: 0px 0px;
+    /* -webkit-user-select: none; */
+	padding: 0;
+   
+}
+ul { padding: 0px; overflow: hidden; }
+ul li{
+list-style: none;
+margin:0;
+padding: 0px;
+border-style: none none none none;
+border-width: 1px;
+border-color: #212121;
+}
+hr
+{
+position: absolute;
+left:5px;
+top:185.5px;
+size:1px;
+}
+
+input{
+border: 1px solid #535353;
+background: #383838;
+color: #CECECE;
+}
+input:disabled{
+color: #484848;
+}
+
+.mainContainer{
+margin:5px;
+}
+span:hover{cursor: default;}
+li:hover{
+cursor: default;
+}
+.transitionsList{
+margin-top: 0px;
+border: 0px solid;
+border-color: #171717;
+height: 300px;
+  overflow: auto;
+  width: 280px;
+}
+#MainList{
+margin-top:0px;
+}
+li.subCategorie{
+padding-left:0px;
+padding-top:4px;
+padding-bottom:4px;
+}
+.subDiv{
+padding-left:10px;
+padding-top: 0px;
+padding-bottom:3.5px;
+}
+.lineDiv{
+height:4px;
+border-style: none none solid none;
+border-width: 1px;
+border-color: #212121;
+}
+.lineDiv2{
+height:0px;
+border-style: none none solid none;
+border-width: 1px;
+border-color: #212121;
+}
+span.subCategorie{
+padding-left:5px;
+padding-right:5px;
+padding-top:2.5px;
+padding-bottom:2.5px;
+}
+span.subCategorie:hover{
+background-color: #434242;
+}
+span.subCategorie.selectedSpan{
+background-color: #414141;
+}
+li.transitionLi{
+padding-top:5px;
+padding-left:30px;
+background-color: none;
+border-style: none none solid none;
+border-width: 1px;
+border-color: #212121;
+}
+li.transitionLi:hover{
+background-color: #434242;
+}
+li.transitionLi.selectedLi{
+background-color: #575757;
+}
+.img2{
+width:10px;
+transform: rotate(0deg);
+}
+.imgTrans{
+width: 15px;
+padding-right:3px;
+}
+.folderImg{
+display: inline-block;
+vertical-align: middle;
+margin-left:3px;
+
+}
+.liDiv{
+display: inline;
+vertical-align:top;
+padding-left:4px;
+}
+#forVideo{
+height:160px;
+}
+   
+.title
+{
+display:none; 
+height:158px; 
+width:280px; 
+background:#fffed2; 
+border:1px solid #838231; 
+padding:5px; 
+position:absolute;
+margin-left:0px; top:0px; z-index:100;
+}
+
+
+.buttonDiv {
+display:inline-block;
+width:280px; 
+
+}
+.addAndSelect{
+white-space: nowrap;
+display: inline-block;
+vertical-align: middle;
+}
+.buttonClass {
+border: 0px solid;
+height: 25px;
+font-family: "Arial"; 
+font-size:11px;
+color: #FBFBFB;
+margin: 3px 0px; 
+padding: 0px;
+cursor: default;
+/*background: #393939!important;*/
+background: #262626;
+margin-right:3px;
+}
+
+.buttonClass:hover { 
+height: 25px;
+font-family: "Arial"; 
+font-size:11px;
+color: #FBFBFB !important;
+margin: 3px 0px; 
+padding: 0px;
+cursor: default;
+background: #171717 !important;
+margin-right:3px;
+}
+
+#addReplaceTransitions{
+width:84px;
+}	
+#select{
+background-color: #262626;
+color: #CECECE  !important;
+font-family: "Arial"; 
+font-size: 11px;
+}
+#select:hover{
+color: #FBFBFB !important;
+background: #171717 !important;
+}
+.otherButtons{
+display:inline-block;
+white-space: nowrap;
+vertical-align: middle;
+}
+.otherButtons  img{
+/*background-repeat: no-repeat;*/
+/*background-color: #393939;*/
+/*background-color: #262626;*/
+display: inline-block;
+width:25px;
+height:25px;
+outline: none;
+margin-right:2px;
+padding:2px;
+}
+.otherButtons  img:hover{
+background-color: #171717;
+}
+#replaceTransitions{
+width:89px;
+}
+.unselectAll{
+position:absolute;
+width:65px;
+height:300px;
+left: 210px; 
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px;}
+::-webkit-scrollbar-button {  background-color: #3B3B3B; }
+::-webkit-scrollbar-track {  background-color: #3B3B3B;}
+::-webkit-scrollbar-track-piece { background-color: #1F1F1F;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #3B3B3B; border-radius: 0px;}
+::-webkit-scrollbar-corner { background-color: #3B3B3B;}
+::-webkit-resizer { background-color: #3B3B3B;}				
